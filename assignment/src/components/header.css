@@ -1,0 +1,45 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.head{
+    border:2px solid red;
+    
+}
+
+.navbar{
+    margin:15px 0px 10px 10px;
+    width: 95%;
+    box-shadow: 1px 2px #888888;
+    border: 1px solid #888888;
+    border-radius: 15px;
+}
+.btn{
+    margin-left: 5px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: large;
+}
+.collapse{
+    font-weight: 500;
+    font-size: medium;
+}
+.div1{
+    margin-top: 200px;
+    text-align: center;
+}
+h2{
+    font-weight: bolder;
+    color: black;
+}
+.div1 p{
+    margin-top: -5px;
+    font-size:smaller;
+}
+
+
+@media screen and (max-width: 600px) {
+    .head{
+        background-image: -moz-element(15);
+    }
+  }
